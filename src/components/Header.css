@@ -1,0 +1,111 @@
+  
+  .hero-container {
+    background: url(../assets/34.jpg) bottom center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(5, 5, 5, 0.2);
+    object-fit: contain;
+   
+           }
+  
+  .hero-container > h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-top: -100px;
+   
+  }
+  .hero-container > p {
+    line-height: 1.7;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .hero-btns {
+        margin-top: 32px;
+            }
+  
+  .hero-btns .btn {
+    border-radius: 2rem; 
+      margin: 6px;
+     
+       }
+  
+       .hero-btns .btn--primary:hover {
+      background: inherit;
+      color: white;
+           }
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+   @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      font-size: 35px;
+      margin-top: -100px;
+    }
+    
+    .hero-container > p {
+      font-size: 14px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+           width: 100%;
+            }
+    .cards p{
+       padding:20px;
+       padding-bottom: 0px;
+      margin-bottom: 0px;
+            }
+     }
+     @media screen and (max-width: 425px) {
+      
+      .hero-container > h1 {
+        font-size: 31px;
+        margin-top: -100px;
+               }
+      .hero-container > p {
+        font-size: 14px;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      .btn .btn--outline .btn--large{
+   border: 2px solid red;
+      }
+.cards{
+  padding-left: 0px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 0px;
+    
+}
+.cards h1{
+  margin-top: 27px;
+}
+
+
+     }
+
+     

@@ -1,0 +1,279 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    padding:27px 200px;
+    height: 300px;
+    align-items: center;
+}
+
+.home::before{ 
+    content: "";
+    position: absolute;
+    height: 400px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.9;
+}
+.courses987{
+    background: url(../assets/1.jpg) no-repeat center;
+}
+.our-course{
+margin-top: 0.5rem;
+margin-left: 50px;
+  
+}
+
+.home h1{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.course123{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 2.5rem;
+}
+
+div.Cards-container{
+    margin-left: 90px;
+}
+.Cards-container{
+    margin-top: 20px;
+     margin-left: 21px;
+    margin-right: 21px;
+    display: flex;
+    padding-left: 36px;
+    padding-top: 20px;
+    padding-right: 52px;
+    padding-bottom: 2rem;
+   
+}
+.Cards{
+    background: rgb(235, 233, 233);
+    border-radius: 0.7rem;
+      margin:2.5rem;
+      margin-left: 0;     
+      padding: 2rem;
+       }
+
+.Cards-Heading{
+font-size: 2rem;
+margin-bottom: 1rem;
+
+}
+.Cards-p p{
+    font-size: 15px;
+    margin-bottom: 1rem;
+    text-align: left;
+    }
+
+.bg{
+    margin: auto;
+    margin-right: 2rem;
+    height: 33rem;
+    width: 30rem;
+    border-radius: 0.2rem;
+}
+
+
+  .h123{
+    border-radius: 10px;
+     color: white;
+     padding: 15px;
+     margin: auto;
+     width: 85%;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(8, 117, 117);
+}
+.p123{
+    color: rgb(78, 78, 78);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px;
+}
+.Buttons{
+justify-content: center;
+text-align: center;
+}
+
+.btn50{
+    background-color:#040a24;
+    font-color:white;
+    border: none;
+    color:whitesmoke;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+.btn50:hover{
+    background-color:#102361;
+    font-color:black;
+    
+}
+.btn10{
+background-color:#810000;
+border: none;
+color:whitesmoke;
+padding: 10px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 5px 2px;
+cursor: pointer;
+border-radius: 5px;
+}
+.btn10:hover{
+background-color: rgb(173, 10, 10);
+font-color:white;
+}
+
+@media screen and (max-width: 768px) {
+     
+
+    .Cards-container {
+        margin-top: 0;
+        margin-left: 39px;
+        margin-right: 0;
+        display: flex;
+        padding-left: 0;
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom:0;
+        flex-direction: column;
+    }
+    .bg {
+        margin: auto;
+        margin-top: 36px;
+        margin-right: 2rem;
+        margin-left: -30px;
+        height: 18rem;
+        width: 19rem;
+        border-radius: 0.2rem;
+    }
+    .Cards-Heading {
+        font-size: 21px;
+    }
+    .Cards-p p {
+        font-size: 12px;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    .Cards {
+        position: relative;
+        left: -20px;
+    }
+    .bg-1{
+        
+            height: auto;
+            width: 35rem;
+            margin-top: 60px;
+            margin-left: 18px;
+    }
+    .bg-2{
+        height: auto;
+        width: 35rem;
+        margin-top: -20px;
+        margin-left: 18px;
+           }
+
+    .bg-3{
+        height: auto;
+        width: 35rem;
+        margin-top: 68px;
+        margin-left: 18px;
+    }
+    .cards-1 {
+        position: relative;
+        left: -17px;
+        top: -11px;
+    }
+.cards-3{
+    
+        position: relative;
+        left: -20px;
+        top: -18px;
+   
+}
+
+   }
+
+@media screen and (max-width: 425px) {
+     
+    .Cards-container {
+        margin-top: 0;
+        margin-left: 39px;
+        margin-right: 0;
+        display: flex;
+        padding-left: 0;
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom:0;
+        flex-direction: column;
+    }
+    .bg {
+        margin: auto;
+        margin-top: 36px;
+        margin-right: 2rem;
+        margin-left: -30px;
+        height: 18rem;
+        width: 19rem;
+        border-radius: 0.2rem;
+    }
+    .Cards-Heading {
+        font-size: 21px;
+    }
+    .Cards-p p {
+        font-size: 12px;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    .Cards {
+        position: relative;
+        left: -20px;
+    }
+    .bg-1{
+        margin-top: 26px;
+         margin-left: -28px;
+    }
+
+    .bg-2{
+           position: relative;
+            top: -57px;
+            left: 7px;
+           }
+
+    .bg-3{
+      
+    }
+    .cards-1 {
+        position: relative;
+        left: -23px;
+        top: -15px;
+    }
+.cards-3{
+    
+        position: relative;
+        left: -20px;
+        top: -18px;
+   
+}
+
+   }
+
+
+
