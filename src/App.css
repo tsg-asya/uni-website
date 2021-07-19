@@ -35,10 +35,12 @@
 }
 
 .sign-up {
-  background-image: url('./assets/1.jpg');
+  background-color:rgb(255, 224, 184);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: rgb(132, 140, 255);
+  font-size: 55px;
+  text-decoration: none;
+  text-align: center;
 }  
