@@ -18,7 +18,7 @@ function AboutSection() {
 
                     <p>
                         Integrated Institute of Technology, Dwarka (IIT-Dwarka) was established in 2008 under the 
-                        Department of Training and Technical Education, Government of NCT of Delhi. The campus is located
+                        Department of Training and Technical Education by Government of NCT of Delhi. The campus is located
                         in a prominent location of Dwarka, New Delhi, and is surrounded by a salubrious and pollution-free
 					    environment which is in very close proximity to Delhi Metro.
 
